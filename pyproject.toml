@@ -16,7 +16,13 @@ authors = [
     { email = "diane.adjavon@icloud.com", name = "Diane Adjavon" },
 ]
 dynamic = ["version"]
-dependencies = []
+dependencies = [
+  "psycopg2-binary",
+  "gunpowder",
+  "numpy",
+  "funlib.persistence",
+  "torch",
+]
 
 [project.optional-dependencies]
 dev = [
